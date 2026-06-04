@@ -34,7 +34,7 @@ int main()
     }
     else
     {
-        printf("%d is Not a Strong Number.\n", originalNumber);
+        printf("%d is not a Strong Number.\n", originalNumber);
     }
 
     return 0;
