@@ -1,0 +1,26 @@
+#include <stdio.h>
+
+int main()
+{
+    int rows, i, j;
+
+    printf("Enter the size of the square: ");
+    scanf("%d", &rows);
+
+    // Print hollow square
+    for(i = 1; i <= rows; i++){
+        for(j = 1; j <= rows; j++){
+            if(i == 1 || i == rows || j == 1 || j == rows)
+            {
+                printf("*");
+            }
+            else{
+                printf(" ");
+            }
+        }
+
+        printf("\n");
+    }
+
+    return 0;
+}
